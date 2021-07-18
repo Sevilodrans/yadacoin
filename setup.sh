@@ -65,6 +65,9 @@ in the lines that follow.
 IE. "New block inserted for height: 7800" this is the height for the most recent block
 that the node has synced. 
 By visiting https://yadacoin.io/explorer you can see the current block height.
+Once the block height in the output of sudo systemctl status yadanode.service matches
+the current block height in yadacoin.io/explorer, the node is completely in sync.
+You are now part of something much bigger!
 
 Next you will want to import your "wif" into the Yadacoin app - https://yadacoin.io/app
 To do this, you will need to retreive your 'wif" from the node config file.

@@ -67,7 +67,7 @@ that the node has synced.
 By visiting https://yadacoin.io/explorer you can see the current block height.
 Once the block height in the output of sudo systemctl status yadanode.service matches
 the current block height in yadacoin.io/explorer, the node is completely in sync.
-You are now part of something much bigger!
+You are now part of something much bigger! 
 
 Next you will want to import your "wif" into the Yadacoin app - https://yadacoin.io/app
 To do this, you will need to retreive your 'wif" from the node config file.
@@ -86,7 +86,7 @@ The url will be http://x.x.x.x:8001 (where x.x.x.x is the IP addres of the node)
 If you are opening a web browser directly on the node http://localhost:8001 will work.
 This node may be accessed by other devices on your LAN using the format above.
 
-You may begin Solo mining on this node as soon as it is fully synced.
+You may begin Solo mining on this node as soon as it is fully synced!
 On the webpage of your node, there will be a link provided to download XMRigCC.
 Download and install XMRigCC on any computer on your LAN. Once installed you will modify the 
 config.json file (ON THE XMRigCC Computer NOT THE NODE!) and use the IP of your node in the "url" of the 

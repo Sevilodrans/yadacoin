@@ -53,7 +53,7 @@ sudo systemctl start yadanode.service
 # display message post installation
 sudo bash -c "cat > /etc/yadacoin/WELCOME" << EOL
 Congrats you have installed a full node on the YADACOIN network!
-Thank you for the support! With each new node, the network become more redundant
+Thank you for the support! With each new node, the Yadacoin network becomes more redundant
 and resilient.
 Now that the node has been installed, it will take up to a couple of hours for the
 node to sync. The node is building a database of every block up to the current block.
@@ -94,7 +94,7 @@ config.json file.
 Once you begin Solo mining every block won pays directly to you and the coins will go directly to the wallet
 that was created with your 'wif' earlier in this document.
 To read this file again, it can be found here - /etc/yadacoin/WELCOME
-cat /etc/yadacoin/WELCOME will display the test easily
+cat /etc/yadacoin/WELCOME will display the text easily
 Join our discord for help, news, and further information!
 https://discord.gg/JEDJaFS
 EOL

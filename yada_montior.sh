@@ -18,8 +18,8 @@ error="StreamClosedError(real_error=self.error)"
 # Set syslog message
 sysmsg="yadanode.service - $error"
 
-# Notify the authorities is error is present
-# mailx -s "error in messages file" your@emailaddress.com
+# Notify the authorities if error happened
+# mailx -s "error in messages file" your@emailaddress.com 
 
 # define yada service for systemd
 srvc="yadanode.service"

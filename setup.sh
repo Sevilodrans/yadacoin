@@ -42,7 +42,7 @@ sudo -H python3 -m pip install -r requirements-python3.txt
 sudo python3 -m pip install --upgrade requests
 
 # hugepages reservation
-sudo bash -c "echo vm.nr_hugepages=1280 >> /etc/sysctl.conf"
+sudo bash -c "echo vm.nr_hugepages=2048 >> /etc/sysctl.conf"
 
 # enable systemd startup
 sudo systemctl enable yadanode.service
